@@ -1,7 +1,7 @@
 
 import { useDispatch, useSelector } from 'react-redux';
-import { addItemToCart } from '../../store/cart/card.action';
-import { selectCartItems } from '../../store/cart/card.selector';
+import { addItemToCart } from '../../store/cart/cart.action';
+import { selectCartItems } from '../../store/cart/cart.selector';
 
 import Button, { BUTTON_TYPE_CLASSES } from '../button/button.component';
 

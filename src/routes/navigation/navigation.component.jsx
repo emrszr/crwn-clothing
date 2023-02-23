@@ -15,7 +15,7 @@ import {
   NavLink,
   LogoContainer,
 } from "./navigation.styles";
-import { selectIsCartOpen } from "../../store/cart/card.selector";
+import { selectIsCartOpen } from "../../store/cart/cart.selector";
 import { signOutStart } from "../../store/user/user.action";
 
 const Navigation = () => {
